@@ -1,7 +1,7 @@
 def prime?(number)
  i = 2
-  while i < max
-    is_divisible = ((number % i) == 0)
+  while i < number
+  is_divisible = ((number % i) == 0)
     if is_divisible
       # divisor found; stop and return false!
       return false
