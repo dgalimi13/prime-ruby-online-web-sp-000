@@ -1,7 +1,7 @@
 def prime?(number)
- i = 2
+i = 2
   while i < number
-  is_divisible = ((number % i) == 0)
+    is_divisible = ((number % i) == 0)
     if is_divisible
       # divisor found; stop and return false!
       return false
@@ -9,4 +9,3 @@ def prime?(number)
 
     i += 1
   end
-end
