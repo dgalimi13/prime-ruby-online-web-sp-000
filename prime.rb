@@ -6,6 +6,4 @@ i = 2
       # divisor found; stop and return false!
       return false
     end
-
-    i += 1
   end
